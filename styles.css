@@ -1,16 +1,16 @@
 :root {
-    --primary-color:#fcd34d;
+    --primary-color: #fcd34d;
 }
 
 
 body {
     font-family: 'Nunito', sans-serif;
     margin: 0px;
-    background:#fefce8;
+    background: #fefce8;
 }
 
 /* Container */
-.container  {
+.container {
     padding-left: 1rem;
     padding-right: 1rem;
     padding-bottom: 4rem;
@@ -19,25 +19,25 @@ body {
 
 .container-center {
     text-align: center;
-    margin:auto
+    margin: auto
 }
 
 /* links */
 .link {
     text-decoration: none;
-    padding:0.5rem 1rem;
+    padding: 0.5rem 1rem;
 }
 
 .primary-link {
-    background-color: var(--primary-color); 
+    background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: firebrick;
 }
 
 .secondary-link {
-    color:firebrick;
+    color: firebrick;
     border-radius: 0.5rem;
-    border:1px solid var(--primary-color);
+    border: 1px solid var(--primary-color);
 
 }
 
@@ -45,7 +45,7 @@ body {
 
 .list-non-bullet {
     list-style: none;
-    padding-inline-start:0px;
+    padding-inline-start: 0px;
 
 }
 
@@ -58,14 +58,16 @@ body {
 
 .navigation {
     background-color: #fcd34d;
-    Color:firebrick;
-    padding :1rem;
-    border-style:outset;
+    Color: firebrick;
+    padding: 1rem;
+    border-bottom-style: inset;
+    border-right-style: inset;
+    border-color: dimgray;
     border-top-left-radius: 1rem;
 }
 
 .navigation .link {
-    color:darkblue;
+    color: darkblue;
 }
 
 .navigation .nav-brand {
@@ -89,28 +91,27 @@ body {
 
 .hero .hero-image {
     max-width: 350px;
-    float: right;
+    float:inline-end;
     margin: 0%;
     padding-right: 8rem;
 }
 
-.hero .hero-header{
-    color:dimgray;
-    text-align: left;
-    border-style:outset;
-    
+.hero .hero-header {
+    color: dimgray;
+    border-top-style: outset;
+    border-bottom-style: inset;
+    font-style: oblique;
+    padding-left: 1rem;
 }
 
 .hero .hero-header .heading-inverted {
-    color:#fcd34d;
-    padding-left: 3rem;
-    border-style: inset;
-
+    color: #fcd34d;
+    padding-left: 6rem;
 }
 
 /* sections */
 
-.section{
+.section {
     padding: 0.5rem;
 }
 
@@ -119,17 +120,20 @@ body {
 }
 
 .ow {
-    background-color:#f1f5f9;
+    background-color: #f1f5f9;
 }
+
 /* footer */
 
-footer{
+footer {
     background-color: #fcd34d;
-    padding: 2rem 1rem;
+    padding: 1.5rem 0rem;
     text-align: center;
-    color:firebrick;
+    color: firebrick;
     border-top-left-radius: 1rem;
-    border-style: inset;
+    border-top-style: inset;
+    border-left-style: inset;
+    border-color: dimgray;
 
 }
 
@@ -139,8 +143,8 @@ footer{
 
 .mypic {
     display: inline;
-    height:30vh;
+    height: 30vh;
     border-radius: 100rem;
     margin-left: 1.5rem;
-    
+
 }
