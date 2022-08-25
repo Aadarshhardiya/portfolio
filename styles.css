@@ -91,7 +91,7 @@ body {
 
 .hero .hero-image {
     max-width: 350px;
-    float:inline-end;
+    float:right;
     margin: 0%;
     padding-right: 8rem;
 }
