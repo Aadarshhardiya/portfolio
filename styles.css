@@ -1,0 +1,146 @@
+:root {
+    --primary-color:#fcd34d;
+}
+
+
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0px;
+    background:#fefce8;
+}
+
+/* Container */
+.container  {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 4rem;
+    padding-top: 2rem;
+}
+
+.container-center {
+    text-align: center;
+    margin:auto
+}
+
+/* links */
+.link {
+    text-decoration: none;
+    padding:0.5rem 1rem;
+}
+
+.primary-link {
+    background-color: var(--primary-color); 
+    border-radius: 0.5rem;
+    color: firebrick;
+}
+
+.secondary-link {
+    color:firebrick;
+    border-radius: 0.5rem;
+    border:1px solid var(--primary-color);
+
+}
+
+/* lists */
+
+.list-non-bullet {
+    list-style: none;
+    padding-inline-start:0px;
+
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem
+}
+
+/* navigation */
+
+.navigation {
+    background-color: #fcd34d;
+    Color:firebrick;
+    padding :1rem;
+    border-style:outset;
+    border-top-left-radius: 1rem;
+}
+
+.navigation .link {
+    color:darkblue;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+/* header */
+
+.hero {
+    padding: 2rem;
+}
+
+.hero .hero-image {
+    max-width: 350px;
+    float: right;
+    margin: 0%;
+    padding-right: 8rem;
+}
+
+.hero .hero-header{
+    color:dimgray;
+    text-align: left;
+    border-style:outset;
+    
+}
+
+.hero .hero-header .heading-inverted {
+    color:#fcd34d;
+    padding-left: 3rem;
+    border-style: inset;
+
+}
+
+/* sections */
+
+.section{
+    padding: 0.5rem;
+}
+
+.section h3 {
+    text-align: center;
+}
+
+.ow {
+    background-color:#f1f5f9;
+}
+/* footer */
+
+footer{
+    background-color: #fcd34d;
+    padding: 2rem 1rem;
+    text-align: center;
+    color:firebrick;
+    border-top-left-radius: 1rem;
+    border-style: inset;
+
+}
+
+.footer .link {
+    color: darkblue;
+}
+
+.mypic {
+    display: inline;
+    height:30vh;
+    border-radius: 100rem;
+    margin-left: 1.5rem;
+    
+}
