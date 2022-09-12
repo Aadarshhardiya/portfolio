@@ -113,6 +113,7 @@ body {
     padding-left: 6rem;
 }
 
+
 /* sections */
 
 .section {
@@ -163,19 +164,32 @@ footer {
     padding-left: 6rem;
     padding-right:6rem;
     font-size:x-large;
-    color: #1E293B;
+    color: dimgray;
     word-wrap: break-word;
 }
 
 .title {
 
-    color:#2563EB;
-    float: right;
+    color:dimgray;
     padding: 1rem;
 
 }
 
 .header {
-    color:red;
+    padding: 1rem;
+    
+}
+
+p{
+    display: block;
+    font-weight: bold;
+    color: dimgray;
+    font-size: larger;
+    padding:1rem
+}
+
+small{
+    float: right;
+    color:dimgray;
     padding: 1rem;
 }
