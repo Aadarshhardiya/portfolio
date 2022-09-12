@@ -101,8 +101,8 @@ body {
 
 .hero .hero-header {
     color: dimgray;
-    border-top-style: outset;
-    border-bottom-style: inset;
+    border-top-style: solid;
+    border-bottom-style: solid;
     font-style: oblique;
     padding-left: 1rem;
 
