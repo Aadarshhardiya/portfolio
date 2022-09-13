@@ -181,7 +181,7 @@ footer {
 }
 
 p{
-    display: block;
+    display:flow-root;
     font-weight: bold;
     color: dimgray;
     font-size: larger;
