@@ -95,6 +95,17 @@ body {
 
 }
 
+.mypic {
+    display: inline;
+    height: 30vh;
+    border-radius: 100rem;
+    margin-left: 1.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 1px;
+    opacity: 2;
+
+}
+
 .hero .hero-image {
     height: 50vh;
     float:right;
@@ -108,12 +119,14 @@ body {
     border-bottom-style: solid;
     font-style: oblique;
     padding-left: 1rem;
+    text-shadow: 1px 0 black, 0 1px black, 1px 0 black, 0 1px black;
 
 }
 
 .hero .hero-header .heading-inverted {
     color: #fcd34d;
     padding-left: 6rem;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 
@@ -149,14 +162,6 @@ footer {
 
 .footer .link {
     color: darkblue;
-}
-
-.mypic {
-    display: inline;
-    height: 30vh;
-    border-radius: 100rem;
-    margin-left: 1.5rem;
-
 }
 
 /* blog */
